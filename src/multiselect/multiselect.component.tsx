@@ -51,6 +51,7 @@ export class Multiselect extends React.Component<IMultiselectProps, any> {
       selectedValues: Object.assign([], props.selectedValues),
       preSelectedValues: Object.assign([], props.selectedValues),
       toggleOptionsList: false,
+      closeOnSelect: props.closeOnSelect,
       highlightOption: props.avoidHighlightFirstOption ? -1 : 0,
 			showCheckbox: props.showCheckbox,
       keepSearchTerm: props.keepSearchTerm,
